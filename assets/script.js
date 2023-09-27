@@ -28,27 +28,26 @@ $('.saveBtn').on('click', savePlan);
 // past, present, and future classes? How can Day.js be used to get the
 // current hour in 24-hour time?
 //
-function colorTime(){
+function colorTime() {
 
-let dayjsHour = dayjs().hour();
-console.log(dayjsHour)
-$(".time-block").each(function(){
-  let planHour = parseInt($(this).attr("id").split("-")[1]);
-if (planHour<dayjsHour){
-  $(this).addClass("past");
-} else if (planHour==dayjsHour){
-  $(this).addClass("present");
-  $(this).removeClass("past");
-} else {
-  $(this).addClass("future");
-  $(this).removeClass("past");
-  $(this).removeClass("present");
-}
+  let dayjsHour = dayjs().hour();
+  
+  $(".time-block").each(function () {
 
+    let planHour = parseInt($(this).attr("id").split("-")[1]);
 
-})
-
-}
+    if (planHour < dayjsHour) {
+      $(this).addClass("past");
+    } 
+     else if (planHour == dayjsHour) {
+      $(this).addClass("present");
+      $(this).removeClass("past");
+    } 
+      else {
+      $(this).addClass("future");
+      $(this).removeClass("past");
+      $(this).removeClass("present");
+    } })}
 
 colorTime();
 // TODO: Add code to get any user input that was saved in localStorage and set
