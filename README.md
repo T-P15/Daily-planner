@@ -7,19 +7,19 @@ This project was created in order to enable people to schedule their workday app
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+follow this url to find the application https://t-p15.github.io/Daily-planner/ 
 
 ## Usage
+To use the app type in the centre text area shown below;
 
+Each text area is aligned with its corresponding time and save button 
 
-## Credits
+if you want to save the event you have scheduled please click the blue save icon that corresponds with the event
 
-List your collaborators, if any, with links to their GitHub profiles.
+This app uses current time to highlight whether your events are present, future or past 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
+Green text box is future, greyed out is past events and red highlights current events.
 
 ## Features
-
+This app uses local storage in order to remember and apply users scheduled events so that they aren't lost upon leaving or refreshing the app.
+This app also uses the 
