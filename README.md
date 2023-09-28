@@ -14,14 +14,18 @@ To use the app type in the centre text area shown below;
 
 ![text use](https://github.com/T-P15/Daily-planner/assets/142391755/37805248-33b4-4472-b7a4-0dd19c31bf2c)
 
-
 Each text area is aligned with its corresponding time and save button 
 
 if you want to save the event you have scheduled please click the blue save icon that corresponds with the event
 
+![save use](https://github.com/T-P15/Daily-planner/assets/142391755/f0ec0758-ac01-4ff9-a1ce-ea4237c0bb9f)
+
 This app uses current time to highlight whether your events are present, future or past 
 
 Green text box is future, greyed out is past events and red highlights current events.
+
+![event time](https://github.com/T-P15/Daily-planner/assets/142391755/f7e568a4-78d1-4ea1-bb00-fb26d6cfffd9)
+
 
 ## Features
 This app uses local storage in order to remember and apply users scheduled events so that they aren't lost upon leaving or refreshing the app.
